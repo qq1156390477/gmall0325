@@ -15,6 +15,7 @@ public class UserInfo implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     @Column
+    //更改
     private String loginName;
     @Column
     private String nickName;
